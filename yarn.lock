@@ -5923,10 +5923,10 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rn-erxes-sdk@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/rn-erxes-sdk/-/rn-erxes-sdk-0.4.6.tgz#a0814e15e777919d220d7f2cc746b6d174e940d2"
-  integrity sha512-ZMlWjxRE1tI7ZlEoJQy80Yl2KqUGtjJahYybPF8B4LisgVd5Fv2bIT67XGK1yUuArBlFyQ12wfaHm30yzc636w==
+rn-erxes-sdk@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/rn-erxes-sdk/-/rn-erxes-sdk-0.5.1.tgz#c3308cd494a6d2462acfd04c3f4c4797108c5680"
+  integrity sha512-UKnkK/X/xnbcs9hT7ayaJ9tHlcmVXXzOl81NwdsKx/i3BC9XQn3yDMq1l4nGIG4N+whBMBN9t1Z4K/Q/9kCT2Q==
   dependencies:
     "@apollo/client" "^3.14.1"
     dayjs "^1.11.8"

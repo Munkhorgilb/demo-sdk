@@ -35,7 +35,10 @@ export function HomeScreen({ navigation }: Props) {
         {
           id: 'profile',
           title: 'Profile',
-          systemIcon: 'person.crop.circle',
+          // iOS uses an SF Symbol; Android resolves a Compose Material icon by
+          // name (needs material-icons-extended for the full set).
+          iosIcon: 'person.crop.circle',
+          androidIcon: 'AccountCircle',
           // Just navigate — don't `hide()` first. Dismissing the native
           // messenger before navigating uncovers the empty Home screen for a
           // frame (the "blank Home, no data" flash). Navigating pushes Profile

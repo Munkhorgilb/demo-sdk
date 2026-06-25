@@ -18,4 +18,13 @@ buildscript {
     }
 }
 
+// Local-dev only: resolve com.erxes:messenger-sdk from ~/.m2 (the erxes Android
+// SDK installed via `./gradlew :messenger-sdk:publishToMavenLocal`). Remove this
+// once the SDK is published to a remote repo (e.g. JitPack/Maven Central).
+allprojects {
+    repositories {
+        mavenLocal()
+    }
+}
+
 apply plugin: "com.facebook.react.rootproject"

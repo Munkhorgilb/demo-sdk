@@ -116,4 +116,10 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // Full Compose Material icon set, so rn-erxes-sdk can resolve action icons by
+    // name (e.g. androidIcon: "AccountCircle"). Only needed for icons outside the
+    // small material-icons-core set.
+    implementation(platform("androidx.compose:compose-bom:2024.12.01"))
+    implementation("androidx.compose.material:material-icons-extended")
 }
