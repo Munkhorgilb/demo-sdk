@@ -1,4 +1,5 @@
 PODS:
+  - ErxesMessengerSDK (0.30.14)
   - FBLazyVector (0.86.0)
   - hermes-engine (250829098.0.14):
     - hermes-engine/Pre-built (= 250829098.0.14)
@@ -1892,7 +1893,8 @@ PODS:
     - React-utils (= 0.86.0)
     - ReactNativeDependencies
   - ReactNativeDependencies (0.86.0)
-  - rn-erxes-sdk (0.5.1):
+  - rn-erxes-sdk (0.5.2):
+    - ErxesMessengerSDK (= 0.30.14)
     - React-Core
   - RNScreens (4.25.2):
     - hermes-engine
@@ -2023,6 +2025,10 @@ DEPENDENCIES:
   - rn-erxes-sdk (from `../node_modules/rn-erxes-sdk`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  trunk:
+    - ErxesMessengerSDK
 
 EXTERNAL SOURCES:
   FBLazyVector:
@@ -2184,6 +2190,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  ErxesMessengerSDK: 3841b99c7436ac3603e995365e4e94030e018c2e
   FBLazyVector: b3e7ad108f0d882e30445c5527d774e3fd432f3d
   hermes-engine: 7e7cf4e8ed619c49aa7fb3c1c27809445fa10f0e
   RCTDeprecation: 2a74a2c57675e64419bd89078efde81f7c1de90b
@@ -2259,7 +2266,7 @@ SPEC CHECKSUMS:
   ReactCodegen: ee39bbc365b4791c9b5183b52c533ebf586e1d8d
   ReactCommon: 4d01bfb533b93a2103329dfefc74db6a9e272888
   ReactNativeDependencies: fa0a54b3f5319ae0e3b9aff32bfee7a424b88e66
-  rn-erxes-sdk: d5dbcd33d5e2fd1c6264db22e8de58179bf3ca76
+  rn-erxes-sdk: 7a3e4f8cf52af98faae8ea3870c0ddcaad686a01
   RNScreens: 032083414633a4d94cbcf08f8ab5019d72d1ba36
   Yoga: fe50ab299e578f397fef753cf309c6703a4db29b
 
